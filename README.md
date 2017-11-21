@@ -7,4 +7,4 @@ then view in your iOS simulator
 react-native run-ios
 ```
 
-Press the blue settings bar to change the settings for limit nd interval
+Press the blue bar to change the settings for limit and interval
