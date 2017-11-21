@@ -30,14 +30,14 @@ export default class MessageList extends React.Component {
         }
     }
 
-    _keyExtractor = (item, index) => item.id;
+    keyExtractor = (item, index) => item.id;
 
     render() {
         return (
             <View style={styles.list}>
                 <FlatList
                     data={this.state.messages} 
-                    keyExtractor={this._keyExtractor}
+                    keyExtractor={this.keyExtractor}
                     renderItem={
                         ({item}) => <MessageItem item={item} />
                     } 
